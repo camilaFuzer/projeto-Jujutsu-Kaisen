@@ -1,0 +1,37 @@
+@font-face{
+    font-family: OnePiece;
+    src: url(Jujutsu\ Kaisen.ttf);
+}
+  
+
+body{
+    background-color: #000000;
+    overflow: hidden;
+}
+
+main::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    width: 100vw;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(199,199,199,0) 0%, rgba(0,0,0,1) 72%);
+}
+
+main .personagem {
+    display: none;
+    height: 100vh;
+}
+
+main .personagem.selecionado {
+    display: block;
+}
+
+main .personagem .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+

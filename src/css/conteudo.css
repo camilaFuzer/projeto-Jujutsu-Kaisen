@@ -1,0 +1,56 @@
+.conteudo {
+    min-height: 100vh;
+    max-width: 100vh;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    z-index: 1;
+}
+
+.conteudo .nome_personagem{
+    margin-top: 300px;
+    margin-left: 100px;
+    font-size: 80px;
+    font-family: "OnePiece", "Secular One";
+    font-weight: 400;
+    text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 rgb(132, 132, 132), -2px 2px 0 red, 2px 2px 0 black;
+    color: black;
+    text-indent: 50px;  
+    z-index: 1;
+    
+}
+
+.conteudo .descricao{
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 10px;
+    left: 150px;
+    max-width: 70%;
+    max-height: 250px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 19px;
+    line-height: 35px;
+    background: radial-gradient(circle, rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0.463) 100%);
+    font-style: italic;
+    overflow: auto;
+    
+
+}
+
+main .logo{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a44778ea-3457-40e0-8979-b7e3685d23d0/dekiqwv-be5d6933-0cc6-40e1-9b67-60b3affb002b.png/v1/fill/w_1192,h_670/jujutsu_kaisen_hd_png_by_newjer53_dekiqwv-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvYTQ0Nzc4ZWEtMzQ1Ny00MGUwLTg5NzktYjdlMzY4NWQyM2QwXC9kZWtpcXd2LWJlNWQ2OTMzLTBjYzYtNDBlMS05YjY3LTYwYjNhZmZiMDAyYi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.p3H6A19SEoARZ8wcMp064W1V11u0J5R0EFcPQ4VwW-8);
+    width: 450px;
+    height: 243px;
+    top: -50px;
+    left: 140px;
+    background-size: cover;
+    justify-content: center;
+    z-index: 1;
+    position: fixed;
+}

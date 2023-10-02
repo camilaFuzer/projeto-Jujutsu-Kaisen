@@ -1,0 +1,78 @@
+.botoes {
+    position: fixed;
+    height: 95vh;
+    width: 130px;
+    top: 10px;
+    left: 0;
+    margin-left: 5px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #00000077;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.botoes .botao{
+    width: 90px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 5px;
+}
+.botoes .botao img {
+    width: 100%;
+    margin-top: 0;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.botao.selecionado img{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #D9D9D9;
+    border-radius: 50%;
+}
+
+.botao.selecionado:hover{
+    transform: none;
+    border-radius: 50%;
+}
+
+.botoes .botao img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #D9D9D9;
+}
+
+/* Estilo da barra de rolagem para navegadores WebKit (Safari e Chrome) */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #00000060;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #333;
+}
+
+/* Estilo da barra de rolagem para outros navegadores (Firefox, Edge, etc.) */
+body {
+    scrollbar-width: thin; 
+    scrollbar-color: #000000 #333; 
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #000000; 
+    border-radius: 6px; 
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #b21515; 
+}
